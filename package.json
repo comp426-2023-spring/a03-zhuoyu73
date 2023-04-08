@@ -3,15 +3,16 @@
   "version": "1.0.0",
   "description": "a web server",
   "main": "./lib/rpsls.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
     "node-rps": "./bin/rps-cli.js",
-    "node-rpsls": "rpsls-cli.js"
+    "node-rpsls": "./bin/rpsls-cli.js"
   },
-  "dependencies":{
-    "minimist":"^1.2.7"
+  "dependencies": {
+    "minimist": "^1.2.8"
   },
   "repository": {
     "type": "git",
